@@ -62,31 +62,33 @@
     <!--Tworzenie sekcji head + class + css- do skopiowania w głównym pliku- informacje wyświetlane na górze strony-->
     <div class="header-separator"></div>
     <main>
-      <section>
-        <ul class="buttons-type">
-          <li>
-            <button type="button" class="button-type">All</button>
-          </li>
-          <li>
-            <button type="button" class="button-type">Web Pages</button>
-          </li>
-          <li>
-            <button type="button" class="button-type">Applications</button>
-          </li>
-          <li>
-            <button type="button" class="button-type">Design</button>
-          </li>
-          <li>
-            <button type="button" class="button-type">Marketing</button>
-          </li>
-        </ul>
-      </section>
+      <div>
+        <section>
+          <ul class="buttons-type">
+            <li>
+              <button type="button" class="button-type">All</button>
+            </li>
+            <li>
+              <button type="button" class="button-type">Web Pages</button>
+            </li>
+            <li>
+              <button type="button" class="button-type">Applications</button>
+            </li>
+            <li>
+              <button type="button" class="button-type">Design</button>
+            </li>
+            <li>
+              <button type="button" class="button-type">Marketing</button>
+            </li>
+          </ul>
+        </section>
+      </div>
       <!--przyciski - odnosniki -->
       <section>
         <ul class="container product-portfolio">
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img.jpg"
+              src="./images/portfolio-img/Squoosh/img.jpg"
               alt="Technocrack"
               width="370"
               height="294"
@@ -104,7 +106,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (1).jpg"
+              src="./images/portfolio-img/Squoosh/img (1).jpg"
               alt="Grafika New Orlean vs Golden Star"
               width="370"
               height="294"
@@ -123,7 +125,7 @@
 
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (2).jpg"
+              src="./images/portfolio-img/Squoosh/img (2).jpg"
               alt="Restauracja Seafood"
               width="370"
               height="294"
@@ -141,7 +143,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (3).jpg"
+              src="./images/portfolio-img/Squoosh/img (3).jpg"
               alt="Projekt Prime"
               width="370"
               height="294"
@@ -159,7 +161,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (4).jpg"
+              src="./images/portfolio-img/Squoosh/img (4).jpg"
               alt="Projekt Boxes"
               width="370"
               height="294"
@@ -177,7 +179,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (5).jpg"
+              src="./images/portfolio-img/Squoosh/img (5).jpg"
               alt="Inspiration has no Borders"
               width="370"
               height="294"
@@ -195,7 +197,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (6).jpg"
+              src="./images/portfolio-img/Squoosh/img (6).jpg"
               alt="Magazyn Limited Edition"
               width="370"
               height="294"
@@ -213,7 +215,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (7).jpg"
+              src="./images/portfolio-img/Squoosh/img (7).jpg"
               alt="Projekt LAB"
               width="370"
               height="294"
@@ -231,7 +233,7 @@
           </li>
           <li class="product-part">
             <img
-              src="./images/portfolio img/Squoosh/img (8).jpg"
+              src="./images/portfolio-img/Squoosh/img (8).jpg"
               alt="Strona internetowa"
               width="370"
               height="294"
@@ -253,17 +255,19 @@
     </main>
     <footer class="footer">
       <ul class="container footer-container nobull">
-        <a
-          href="index.html"
-          class="link-no-underline logo-style white-style-logo"
-          ><span class="text-blue">Web</span>Studio</a
-        >
+        <li>
+          <a
+            href="index.html"
+            class="link-no-underline logo-style white-style-logo"
+            ><span class="text-blue">Web</span>Studio</a
+          >
+        </li>
         <li>
           <address class="address-style">
             m. Warszawa, Aleje Jerozolimskie 21
           </address>
         </li>
-        <ul class="footer-links no-margin nobull">
+        <li class="footer-links no-margin nobull">
           <li class="footer-links-li-margin">
             <a
               href="emailto:info@devstudio.com"
@@ -276,7 +280,7 @@
               >+48111111111</a
             >
           </li>
-        </ul>
+        </li>
       </ul>
     </footer>
   </body>
