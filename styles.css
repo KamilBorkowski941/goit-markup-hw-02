@@ -32,6 +32,7 @@ body {
 .whole-page {
   width: 1600px;
   margin: 0 auto;
+  background-color: var(--white);
 }
 .container {
   width: 1200px;
