@@ -1,2 +1,1 @@
-# goit-markup-hw-02
- pd2
+# goit-html-hw1
